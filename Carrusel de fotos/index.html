@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Carrusel de Fotos</h1>
+    <!--Estas son dos clases de la libreria-->
+    <div class="gallery js-flickity" data-flickity-options='{"wrapAround":true}'>
+        <!--Sirve para que las fotos puedan deslizarce
+        desde la primera hasta la ultima y de la ultima a la primera-->
+        <div class="gallery-cell">
+            <img src="img/1.jpg" alt="">
+        </div>
+        <div class="gallery-cell">
+            <img src="img/2.jpg" alt="">
+        </div>
+        <div class="gallery-cell">
+            <img src="img/3.jpg" alt="">
+        </div>
+        <div class="gallery-cell">
+            <img src="img/4.jpg" alt="">
+        </div>
+        <div class="gallery-cell">
+            <img src="img/5.jpg" alt="">
+        </div>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+</body>
+
+</html>
