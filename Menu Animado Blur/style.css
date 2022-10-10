@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(darkblue, pink);
+    height: 100vh;
+}
+
+ul { 
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+ul li {
+    list-style: none;
+    margin: 0 15px;
+    transition: 1s;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+    font-size: 18px;
+
+}
+ul:hover li a {
+    transform: scale(1.2);
+}
